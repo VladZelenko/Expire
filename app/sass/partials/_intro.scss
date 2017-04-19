@@ -1,0 +1,22 @@
+.heder-nav {
+	background: none;
+	border: none;
+	.header-menu-1 {
+		margin-top: 15px;
+		li a {
+			color: $secondary_font_color;
+			text-transform: uppercase;
+			&:hover, &:focus {
+				color: #ffaf36;
+				background: none;
+				text-decoration: none;
+			}
+		}
+		.active {color: #ffaf36;}
+	}
+}
+.intro {
+	width: 100%;
+	min-height: 235px;
+	background: url('../../img/header-img.png');
+}

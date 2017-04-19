@@ -8338,3 +8338,23 @@ button.close {
 @media print {
   .hidden-print {
     display: none !important; } }
+
+.heder-nav {
+  background: none;
+  border: none; }
+  .heder-nav .header-menu-1 {
+    margin-top: 15px; }
+    .heder-nav .header-menu-1 li a {
+      color: #b7b7b7;
+      text-transform: uppercase; }
+      .heder-nav .header-menu-1 li a:hover, .heder-nav .header-menu-1 li a:focus {
+        color: #ffaf36;
+        background: none;
+        text-decoration: none; }
+    .heder-nav .header-menu-1 .active {
+      color: #ffaf36; }
+
+.intro {
+  width: 100%;
+  min-height: 235px;
+  background: url("../../img/header-img.png"); }
