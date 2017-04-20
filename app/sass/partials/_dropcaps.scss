@@ -1,0 +1,23 @@
+.dropcaps {
+	span.dropcaps-1 {
+		margin:  5px 10px 5px 0;
+		display: block;
+		float: left;
+		width: 40px;
+		font: 600 46px/40px $secondary_font;
+	}
+	span.dropcaps-2 {
+		margin:  5px 10px 5px 0;
+		display: block;
+		float: left;
+		width: 40px;
+		color: $primary_font_color;
+		background-color: #ff3c1f;
+		font: 600 38px/40px $secondary_font;
+		text-align: center;
+	}
+	mark {
+		color: $primary_font_color;
+		background-color: #ff3c1f;
+	}
+}
