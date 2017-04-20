@@ -8350,25 +8350,54 @@ button.close {
 .heder-nav {
   background: none;
   border: none; }
+  .heder-nav .navbar-toggle {
+    margin-top: 50px; }
   .heder-nav .header-menu-1 {
-    margin-top: 15px; }
+    margin-top: 45px; }
     .heder-nav .header-menu-1 li a {
       color: #b7b7b7;
       text-transform: uppercase; }
       .heder-nav .header-menu-1 li a:hover, .heder-nav .header-menu-1 li a:focus {
-        color: #ffaf36;
+        -webkit-transition: all .4s ease-in-out;
+        transition: all .4s ease-in-out;
+        color: #ff3c1f;
         background: none;
         text-decoration: none; }
     .heder-nav .header-menu-1 .active {
-      color: #ffaf36; }
+      color: #ff3c1f; }
 
 .intro {
   width: 100%;
   min-height: 235px;
   background: url("../../img/header-img.png"); }
+  .intro h2.title {
+    margin-top: 50px;
+    color: #ffffff;
+    font: 600 45px "Raleway", sans-serif; }
+    .intro h2.title:after {
+      display: block;
+      content: '';
+      margin-top: 15px;
+      width: 100px;
+      height: 1px;
+      background-image: -webkit-gradient(linear, right top, left top, from(#4e5860), to(#ff3c1f));
+      background-image: -webkit-linear-gradient(right, #4e5860 0%, #ff3c1f 100%);
+      background-image: linear-gradient(to left, #4e5860 0%, #ff3c1f 100%); }
+  .intro .navigation {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex; }
+    .intro .navigation a {
+      color: #ffffff;
+      font: 500 14px "Raleway", sans-serif;
+      margin-right: 10px; }
+    .intro .navigation .path-pages:after {
+      padding-left: 10px;
+      content: '>'; }
 
 .columns, .blockquotes, .dropcaps {
-  padding: 50px 0 140px 0; }
+  padding: 0 0 140px 0; }
   .columns h2.title, .blockquotes h2.title, .dropcaps h2.title {
     color: #272d32;
     font: 600 45px "Raleway", sans-serif;
@@ -8445,7 +8474,16 @@ button.close {
       color: #ffffff;
       font-size: 22px;
       margin-right: 35px; }
+    .footer .social-icons .fa-instagram {
+      margin-right: 0; }
   .footer .copyright {
     display: block;
     color: #ffffff;
     margin: 40px 0; }
+
+@media screen and (min-width: 320px) and (max-width: 1000px) {
+  .footer .social-icons {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center; } }
