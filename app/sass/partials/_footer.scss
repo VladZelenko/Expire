@@ -1,5 +1,21 @@
 .footer {
+	padding: 25px 0 20px 0;
 	width: 100%;
-	min-height: 150px;
 	background-color: #303030;
+	text-align: center;
+	.social-icons {
+		margin: 40px 0;
+		display: flex;
+		flex-flow: row nowrap;
+		.fa {
+			color: #ffffff;
+			font-size: 22px;
+			margin-right: 35px;
+		}
+	}
+	.copyright {
+		display: block;
+		color: #ffffff;
+		margin: 40px 0;
+	}
 }

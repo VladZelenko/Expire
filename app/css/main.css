@@ -8360,6 +8360,26 @@ button.close {
   background: url("../../img/header-img.png"); }
 
 .footer {
+  padding: 25px 0 20px 0;
   width: 100%;
-  min-height: 150px;
-  background-color: #303030; }
+  background-color: #303030;
+  text-align: center; }
+  .footer .social-icons {
+    margin: 40px 0;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-flow: row nowrap;
+        -ms-flex-flow: row nowrap;
+            flex-flow: row nowrap; }
+    .footer .social-icons .fa {
+      color: #ffffff;
+      font-size: 22px;
+      margin-right: 35px; }
+  .footer .copyright {
+    display: block;
+    color: #ffffff;
+    margin: 40px 0; }
