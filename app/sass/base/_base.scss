@@ -7,3 +7,12 @@ img {
 	height: auto;
 }
 body {font-family: $primary_font;}
+
+h3.title {
+	color: #303030;
+	font: 600 15px $primary_font;
+}
+p {
+	color: #4e5860;
+	font: 400 14px/25px $secondary_font;
+}

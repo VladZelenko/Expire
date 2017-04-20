@@ -66,7 +66,15 @@ img {
   height: auto; }
 
 body {
-  font-family: "Roboto", sans-serif; }
+  font-family: "Raleway", sans-serif; }
+
+h3.title {
+  color: #303030;
+  font: 600 15px "Raleway", sans-serif; }
+
+p {
+  color: #4e5860;
+  font: 400 14px/25px "Open Sans", sans-serif; }
 
 @font-face {
   font-family: "font-awesome";
@@ -8358,6 +8366,30 @@ button.close {
   width: 100%;
   min-height: 235px;
   background: url("../../img/header-img.png"); }
+
+.columns, .blockquotes {
+  padding: 50px 0 140px 0; }
+  .columns h2.title, .blockquotes h2.title {
+    color: #272d32;
+    font: 600 45px "Raleway", sans-serif;
+    text-align: center; }
+    .columns h2.title:after, .blockquotes h2.title:after {
+      display: block;
+      content: '';
+      margin: 35px auto 70px auto;
+      width: 100px;
+      height: 1px;
+      background-image: -webkit-gradient(linear, right top, left top, from(#4e5860), to(#ff3c1f));
+      background-image: -webkit-linear-gradient(right, #4e5860 0%, #ff3c1f 100%);
+      background-image: linear-gradient(to left, #4e5860 0%, #ff3c1f 100%); }
+
+.blockquotes {
+  padding: 105px 0 100px 0; }
+  .blockquotes p {
+    font-style: italic; }
+  .blockquotes i {
+    color: #ff3c1f;
+    font: italic 18px/38px "Open Sans", sans-serif; }
 
 .footer {
   padding: 25px 0 20px 0;

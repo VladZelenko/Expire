@@ -1,0 +1,16 @@
+.columns, .blockquotes {
+	padding: 50px 0 140px 0;
+	h2.title {
+		color: #272d32;
+		font: 600 45px $primary_font;
+		text-align: center;
+		&:after {
+			display: block;
+			content: '';
+			margin: 35px auto 70px auto;
+			width: 100px;
+			height: 1px;
+			background-image: linear-gradient(to left, #4e5860 0%, #ff3c1f 100%);
+		}
+	}
+}
