@@ -1,8 +1,22 @@
 .blockquotes {
 	padding: 105px 0 100px 0;
-	p {font-style: italic;}
+	p {
+		font-style: italic;
+		span {
+			color: #ff3c1f;
+			opacity: 0.4;
+			font: 400 150px accent_font;
+			position: absolute;
+			bottom: 5px;
+			left: 0;
+		}
+	}
 	i {
 		color: #ff3c1f;
 		font: italic 18px/38px $secondary_font;
+	}
+	.blockquotes-box {
+		padding: 0 20px;
+		border-right: 6px solid #932617;
 	}
 }

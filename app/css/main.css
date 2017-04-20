@@ -8387,9 +8387,22 @@ button.close {
   padding: 105px 0 100px 0; }
   .blockquotes p {
     font-style: italic; }
+    .blockquotes p span {
+      color: #ff3c1f;
+      opacity: 0.4;
+      font: 400 150px accent_font;
+      position: absolute;
+      bottom: 5px;
+      left: 0; }
   .blockquotes i {
     color: #ff3c1f;
     font: italic 18px/38px "Open Sans", sans-serif; }
+  .blockquotes .blockquotes-box {
+    padding: 0 20px;
+    border-right: 6px solid #932617; }
+
+.section-1 {
+  padding: 100px 0 70px 0; }
 
 .footer {
   padding: 25px 0 20px 0;
